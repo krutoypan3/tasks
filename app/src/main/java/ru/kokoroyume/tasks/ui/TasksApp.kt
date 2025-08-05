@@ -46,7 +46,7 @@ fun TasksApp(viewModel: TasksViewModel) {
                 modifier = Modifier.padding(16.dp)
             ) {
                 TextButton(onClick = { viewModel.navigateToNode(null) }) {
-                    Text("← Back to root")
+                    Text("← Вернуться в начало")
                 }
             }
         }
